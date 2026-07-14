@@ -161,15 +161,14 @@ http://localhost:3000
 
 ---
 
-# Demo Video
-Business Card OCR | OpenCV Edge Detection & Image Preprocessing Demo
+## 📹 Demo Videos
 
-https://drive.google.com/file/d/1jmN94Q8LHpwRgYvkDQX8AINzoNwCKKDF/view
+- 🎥 **OpenCV Edge Detection & OCR Preprocessing**  
+  https://drive.google.com/file/d/1jmnN94Q8LHpwRgYvkDQX8AINzoNwCKKDF/view
 
-AI Contact Scanner | OCR, Voice Recognition, Contact Graph & Duplicate Detection Demo
-
-https://drive.google.com/file/d/1rZjmmJWF-8k2DwuhCywdw0GGTRGQM1qC/view
-
+- 🎥 **Business Card Contact Scanner (OCR, Voice & Contact Graph)**  
+  https://drive.google.com/file/d/1rZjmmJWF-8k2DwuhCywdw0GGTRGQM1qC/view
+  
 ---
 
 # 📈 Future Enhancements
