@@ -1,19 +1,39 @@
-# AddressBook Edge Stream
+# 🚀 AI Business Card Contact Scanner
 
-## Overview
-
-AddressBook Edge Stream is a contact management application that allows users to:
-
-- Scan business cards using OCR
-- Extract contact details from voice input
-- Manage contacts
-- Create contact relationships
-- Organize contacts into groups
-- Export contacts as VCF files
+An AI-powered Business Card Contact Scanner that automatically extracts contact information from business cards using **OpenCV**, **Tesseract OCR**, and **Voice Processing**. The application also supports duplicate detection, contact relationship management, and Docker-based deployment.
 
 ---
 
-## Tech Stack
+## 📌 Features
+
+### 📷 Business Card OCR
+- Upload business card images
+- OpenCV Edge Detection
+- Perspective Correction
+- Image Preprocessing
+- OCR using Tesseract
+- Automatic Contact Information Extraction
+
+### 🎤 Voice Contact Creation
+- Record or Upload Voice
+- Speech-to-Text Conversion
+- Automatic Contact Creation
+
+### 👥 Contact Management
+- Create Contacts
+- Edit Before Saving
+- Duplicate Detection
+- Merge Contacts
+- Relationship Linking
+
+### 🐳 Deployment
+- Docker
+- Docker Compose
+- Nginx Reverse Proxy
+
+---
+
+# 🛠 Tech Stack
 
 ### Frontend
 - React
@@ -23,59 +43,79 @@ AddressBook Edge Stream is a contact management application that allows users to
 ### Backend
 - NestJS
 - TypeScript
+- Express
 
 ### Database
 - PostgreSQL
-- Drizzle ORM
 
-### OCR
-- Tesseract.js
-
-### Speech-to-Text
+### AI & Computer Vision
+- OpenCV
+- Tesseract OCR
 - Faster Whisper
 
-### Containerization
+### DevOps
 - Docker
 - Docker Compose
+- Nginx
 
 ---
 
-## Prerequisites
+# 📂 Project Structure
 
-- Docker Desktop
-- Node.js 22+
-- Git
-
----
-
-## Setup Instructions
-
-### Clone the project
-
-```bash
-git clone <repository-url>
-cd AddressBook-edge-stream
+```
+apps/
+ ├── api/
+ │    ├── src/
+ │    ├── uploads/
+ │    └── Dockerfile
+ │
+ ├── web/
+ │    ├── src/
+ │    └── Dockerfile
+ │
+docker-compose.yml
+README.md
 ```
 
-### Install dependencies
+---
+
+# ⚙️ Installation
+
+## Clone Repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/business-card-contact-scanner.git
+```
+
+```bash
+cd business-card-contact-scanner
+```
+
+---
+
+## Install Dependencies
 
 ```bash
 npm install
 ```
 
-### Build and start the application
+---
+
+## Start with Docker
 
 ```bash
 docker compose up --build
 ```
 
-### Frontend
+---
+
+## Frontend
 
 ```
 http://localhost:5173
 ```
 
-### Backend API
+## Backend
 
 ```
 http://localhost:3000
@@ -83,42 +123,70 @@ http://localhost:3000
 
 ---
 
-## Features
+# 📸 Screenshots
 
-- Business Card OCR
-- Voice Contact Extraction
-- Contact CRUD
-- Duplicate Detection
-- Contact Groups
-- Contact Relationships
-- Export Contacts as VCF
+### Home Page
+
+<img width="1299" height="559" alt="Bussiness Card home page" src="https://github.com/user-attachments/assets/7fc9577f-209a-4034-bed9-78d5b84f328a" />
 
 ---
 
-## Database
+### Edge Detection &  OCR Result
 
-PostgreSQL is used as the database.
-
-Database schema is located at:
-
-```
-apps/api/src/db/schema.ts
-```
+<img width="999" height="643" alt="edge detection" src="https://github.com/user-attachments/assets/6a08ac43-018d-42b4-a6b8-253198e2350d" />
 
 ---
 
-## Sample Test Data
+### Contact Review
 
-Sample seed data is available in:
-
-```
-scripts/seed-sample-data.js
-```
-
-Run automatically when the database is empty.
+<img width="1258" height="646" alt="Bussiness Card Contacts" src="https://github.com/user-attachments/assets/55c06af1-e1ec-4edd-a12b-d13e04b45053" />
 
 ---
 
-## Author
+#  Voice Contact Creation
 
-Barani K
+<img width="1034" height="560" alt="Bussiness Card voice" src="https://github.com/user-attachments/assets/15648acb-1e74-4640-a292-9313246378f9" />
+
+---
+
+# Business card Contacts
+
+<img width="1258" height="646" alt="Bussiness Card Contacts" src="https://github.com/user-attachments/assets/7f9fb9f0-d544-4153-be88-e0249d328198" />
+
+---
+
+# Graph
+
+<img width="1077" height="644" alt="Bussiness Card graph" src="https://github.com/user-attachments/assets/23a22b6e-cfba-4754-b3a2-8b0a6da7bb42" />
+
+---
+
+# Demo Video
+
+https://drive.google.com/file/d/1jmN94Q8LHpwRgYvkDQX8AINzoNwCKKDF/view
+
+https://drive.google.com/file/d/1rZjmmJWF-8k2DwuhCywdw0GGTRGQM1qC/view
+
+---
+
+# 📈 Future Enhancements
+
+- Multi-language OCR
+- AI-based Business Card Detection
+- QR Code Contact Import
+- Cloud Storage
+- Mobile Application
+
+---
+
+# 👨‍💻 Author
+
+**Barani K**
+
+Java Backend Developer
+
+LinkedIn:
+https://www.linkedin.com/in/YOUR-LINKEDIN/
+
+GitHub:
+https://github.com/YOUR_USERNAME
