@@ -84,7 +84,7 @@ README.md
 ## Clone Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/business-card-contact-scanner.git
+git clone https://github.com/barani12052002/business-card-contact-scanner.git
 ```
 
 ```bash
@@ -186,7 +186,7 @@ https://drive.google.com/file/d/1rZjmmJWF-8k2DwuhCywdw0GGTRGQM1qC/view
 Java Backend Developer
 
 LinkedIn:
-https://www.linkedin.com/in/YOUR-LINKEDIN/
+https://www.linkedin.com/in/k-barani/
 
 GitHub:
-https://github.com/YOUR_USERNAME
+https://github.com/barani12052002
