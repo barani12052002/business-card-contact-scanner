@@ -1,0 +1,35 @@
+# Node
+node_modules/
+
+# Build
+dist/
+build/
+
+# Logs
+logs
+*.log
+
+# Environment
+.env
+.env.*
+
+# Uploads
+uploads/
+app/uploads/
+
+# Docker
+docker-data/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Coverage
+coverage/
+
+# Cache
+.cache/
