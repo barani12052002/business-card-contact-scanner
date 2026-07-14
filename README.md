@@ -162,8 +162,11 @@ http://localhost:3000
 ---
 
 # Demo Video
+Business Card OCR | OpenCV Edge Detection & Image Preprocessing Demo
 
 https://drive.google.com/file/d/1jmN94Q8LHpwRgYvkDQX8AINzoNwCKKDF/view
+
+AI Contact Scanner | OCR, Voice Recognition, Contact Graph & Duplicate Detection Demo
 
 https://drive.google.com/file/d/1rZjmmJWF-8k2DwuhCywdw0GGTRGQM1qC/view
 
